@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 function Navbar() {
   const [menubar, setMenubar] = useState(false);
@@ -44,7 +46,42 @@ function Navbar() {
       </ul>
 
       {/* Social icon */}
-      <div className=" hidden"></div>
+      <div className=" hidden lg:flex flex-col fixed top-[35%] left-0">
+        <ul>
+          <li className=" w-[160px] h-[60px] flex justify-between items-center bg-blue-500 ml-[-100px] hover:ml-[10px] duration-500">
+            <a
+              href="/"
+              className=" flex justify-between items-center w-full text-gray-300"
+            >
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#333333] ml-[-100px] hover:ml-[10px] duration-500">
+            <a
+              href="/"
+              className=" flex justify-between items-center w-full text-gray-300"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#6fc2b0] ml-[-100px] hover:ml-[10px] duration-500">
+            <a
+              href="/"
+              className=" flex justify-between items-center w-full text-gray-300"
+            >
+              Mail <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#565f69] ml-[-100px] hover:ml-[10px] duration-500">
+            <a
+              href="/"
+              className=" flex justify-between items-center w-full text-gray-300"
+            >
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
