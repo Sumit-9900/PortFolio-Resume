@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div
       name="projects"
-      className=" bg-[#0a192f] w-full md:h-screen text-gray-300"
+      className=" bg-[#0a192f] w-full md:h-screen text-gray-300 lg:pb-8"
     >
       <div className=" max-w-[1000px] mx-auto w-full h-full flex flex-col justify-center p-4 lg:px-24">
         <div className=" pt-20 lg:py-8">
@@ -24,8 +24,8 @@ function Projects() {
           >
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
-              <span className=" text-2xl text-white font-bold tracking-wider">
-                React application
+              <span className=" text-xl text-white font-bold tracking-wider">
+                full-stack application
               </span>
               <div className=" pt-8 text-center">
                 <a href="">
