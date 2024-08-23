@@ -11,7 +11,7 @@ import GitHubIcon from "../Assets/github.png";
 
 function Skills() {
   return (
-    <div className=" w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className=" w-full h-screen bg-[#0a192f] text-gray-300">
       {/* Container */}
       <div className=" max-w-[1000px] w-full h-full mx-auto flex flex-col justify-center p-4 md:px-24">
         <div>
