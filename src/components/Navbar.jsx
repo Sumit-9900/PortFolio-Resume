@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [menubar, setMenubar] = useState(false);
@@ -18,11 +19,31 @@ function Navbar() {
       {/* menu */}
 
       <ul className=" hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link to="home" smooth={true} duration={800}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={800}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} duration={800}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="projects" smooth={true} duration={800}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={800}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -38,11 +59,46 @@ function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center duration-300"
         }
       >
-        <li className=" py-4 text-2xl">Home</li>
-        <li className=" py-4 text-2xl">About</li>
-        <li className=" py-4 text-2xl">Skills</li>
-        <li className=" py-4 text-2xl">Projects</li>
-        <li className=" py-4 text-2xl">Contact</li>
+        <li className=" py-4 text-2xl">
+          <Link onClick={handleMenubar} to="home" smooth={true} duration={800}>
+            Home
+          </Link>
+        </li>
+        <li className=" py-4 text-2xl">
+          <Link onClick={handleMenubar} to="about" smooth={true} duration={800}>
+            About
+          </Link>
+        </li>
+        <li className=" py-4 text-2xl">
+          <Link
+            onClick={handleMenubar}
+            to="skills"
+            smooth={true}
+            duration={800}
+          >
+            Skills
+          </Link>
+        </li>
+        <li className=" py-4 text-2xl">
+          <Link
+            onClick={handleMenubar}
+            to="projects"
+            smooth={true}
+            duration={800}
+          >
+            Projects
+          </Link>
+        </li>
+        <li className=" py-4 text-2xl">
+          <Link
+            onClick={handleMenubar}
+            to="contact"
+            smooth={true}
+            duration={800}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Social icon */}
