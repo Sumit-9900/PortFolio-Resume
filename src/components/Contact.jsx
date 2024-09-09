@@ -1,7 +1,10 @@
 import React, { useRef } from "react";
 
 function Contact() {
-  const ref = useRef();
+  const nameRef = useRef();
+  const emaliRef = useRef();
+  const messageRef = useRef();
+
   const formDone = () => {
     ref.current.submit();
     ref.current.value = "";
