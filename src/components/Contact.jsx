@@ -2,12 +2,16 @@ import React, { useRef } from "react";
 
 function Contact() {
   const nameRef = useRef();
-  const emaliRef = useRef();
+  const emailRef = useRef();
   const messageRef = useRef();
 
-  const formDone = () => {
-    ref.current.submit();
-    ref.current.value = "";
+  const formDone = (e) => {
+    e.preventDefault();
+    e.target.submit();
+
+    nameRef.current.value = "";
+    emailRef.current.value = "";
+    messageRef.current.value = "";
   };
   return (
     <div
@@ -17,6 +21,7 @@ function Contact() {
       <form
         action={`https://getform.io/f/${import.meta.env.VITE_ENDPOINT}`}
         method="POST"
+        onSubmit={formDone}
         className=" max-w-[600px] w-full flex flex-col"
       >
         <div className=" pb-8 text-gray-300">
@@ -33,7 +38,7 @@ function Contact() {
           name="name"
           placeholder="Name"
           required={true}
-          ref={ref}
+          ref={nameRef}
         />
         <input
           className=" bg-[#ccd6f6] my-6 p-2 rounded-md text-black outline-none"
@@ -41,7 +46,7 @@ function Contact() {
           name="email"
           placeholder="Email"
           required={true}
-          ref={ref}
+          ref={emailRef}
         />
         <textarea
           className=" p-2 bg-[#ccd6f6] rounded-md text-black outline-none"
@@ -49,11 +54,10 @@ function Contact() {
           placeholder="Message"
           required={true}
           rows={10}
-          ref={ref}
+          ref={messageRef}
         ></textarea>
         <button
           type="submit"
-          onClick={formDone}
           className=" text-white border-2 rounded-md hover:bg-blue-600 hover:border-blue-600 px-4 py-3 my-8 mx-auto flex items-center justify-center duration-300"
         >
           Let's collaborate
