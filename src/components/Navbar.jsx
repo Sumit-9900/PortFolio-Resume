@@ -106,7 +106,8 @@ function Navbar() {
         <ul>
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-blue-500 ml-[-100px] hover:ml-[10px] duration-500">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/ajoypaul/"
+              target="_blank"
               className=" flex justify-between items-center w-full text-gray-300"
             >
               Linkedin <FaLinkedin size={30} />
@@ -114,7 +115,8 @@ function Navbar() {
           </li>
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#333333] ml-[-100px] hover:ml-[10px] duration-500">
             <a
-              href="/"
+              href="https://github.com/ajoy-paul11"
+              target="_blank"
               className=" flex justify-between items-center w-full text-gray-300"
             >
               Github <FaGithub size={30} />
@@ -122,7 +124,8 @@ function Navbar() {
           </li>
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#6fc2b0] ml-[-100px] hover:ml-[10px] duration-500">
             <a
-              href="/"
+              href="mailto:ajoypaul8875@gmail.com?subject=Hello%20from%20your%20portfolio&body=Hi%20Ajoy,%0A%0AI%20saw%20your%20portfolio%20and%20wanted%20to%20reach%20out..."
+              target="_blank"
               className=" flex justify-between items-center w-full text-gray-300"
             >
               Mail <HiOutlineMail size={30} />
@@ -130,7 +133,8 @@ function Navbar() {
           </li>
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#565f69] ml-[-100px] hover:ml-[10px] duration-500">
             <a
-              href="/"
+              href="../Assets/AJOY_RESUME.pdf"
+              download="RESUME_AMIT.pdf"
               className=" flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />

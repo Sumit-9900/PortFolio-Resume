@@ -29,7 +29,7 @@ function Contact() {
             Contact
           </p>
           <p className=" py-4">
-            Submit the form below or shoot me an email- amit2002paul@gmail.com
+            Submit the form below or shoot me an email- ajoypaul8875@gmail.com
           </p>
         </div>
         <input
