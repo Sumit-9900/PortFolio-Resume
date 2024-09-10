@@ -1,6 +1,10 @@
 import React from "react";
-import workImg from "../Assets/workImg.jpeg";
-import realestate from "../Assets/realestate.jpg";
+import bookstore from "../Assets/bookstore.png";
+import blogapp from "../Assets/blogapp.png";
+import REST from "../Assets/REST.png";
+import Todo from "../Assets/Todo.png";
+import passwordgenerator from "../Assets/passwordgenerator.png";
+import currencyconverter from "../Assets/currencyconverter.png";
 
 function Projects() {
   return (
@@ -19,22 +23,32 @@ function Projects() {
         <div className=" w-full grid sm:grid-cols-2 lg:grid-cols-3 gap-4  ">
           {/* Card Item */}
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{
+              backgroundImage: `url(${bookstore})`,
+              objectFit: "contain",
+              backgroundPosition: "center",
+            }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-xl text-white font-bold tracking-wider">
-                full-stack application
+                BookStore Application
               </span>
               <div className=" pt-8 text-center">
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 font-bold text-lg">
+                <a
+                  href="https://book-store-project-jjg2.onrender.com"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 text-lg font-bold">
+                <a
+                  href="https://github.com/Ajoy-paul11/Book-Store-Project"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
                     Code
                   </button>
                 </a>
@@ -42,7 +56,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realestate})` }}
+            style={{ backgroundImage: `url(${blogapp})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -51,13 +65,16 @@ function Projects() {
                 React application
               </span>
               <div className=" pt-8 text-center">
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 font-bold text-lg">
+                <a href="" target="_blank">
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 text-lg font-bold">
+                <a
+                  href="https://github.com/Ajoy-paul11/Blog-App"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
                     Code
                   </button>
                 </a>
@@ -65,7 +82,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${REST})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -74,13 +91,19 @@ function Projects() {
                 React application
               </span>
               <div className=" pt-8 text-center">
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 font-bold text-lg">
+                <a
+                  href="https://github.com/Ajoy-paul11/Query-site"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 text-lg font-bold">
+                <a
+                  href="https://github.com/Ajoy-paul11/REST-API"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
                     Code
                   </button>
                 </a>
@@ -88,7 +111,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realestate})` }}
+            style={{ backgroundImage: `url(${Todo})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -97,13 +120,16 @@ function Projects() {
                 React application
               </span>
               <div className=" pt-8 text-center">
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 font-bold text-lg">
+                <a href="https://todo-manage.vercel.app" target="_blank">
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 text-lg font-bold">
+                <a
+                  href="https://github.com/Ajoy-paul11/TodoUsingContextAPI"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
                     Code
                   </button>
                 </a>
@@ -111,7 +137,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${currencyconverter})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -120,13 +146,19 @@ function Projects() {
                 React application
               </span>
               <div className=" pt-8 text-center">
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 font-bold text-lg">
+                <a
+                  href="https://currency-converter-moneyapp.vercel.app"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 text-lg font-bold">
+                <a
+                  href="https://github.com/Ajoy-paul11/Currency-Converter"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
                     Code
                   </button>
                 </a>
@@ -134,7 +166,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realestate})` }}
+            style={{ backgroundImage: `url(${passwordgenerator})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -143,13 +175,19 @@ function Projects() {
                 React application
               </span>
               <div className=" pt-8 text-center">
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 font-bold text-lg">
+                <a
+                  href="https://random-password-generator-4ws.pages.dev"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
-                  <button className=" text-center rounded-lg bg-white px-4 py-3 m-2 text-gray-700 text-lg font-bold">
+                <a
+                  href="https://github.com/Ajoy-paul11/Password-Generator"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
                     Code
                   </button>
                 </a>
