@@ -65,7 +65,10 @@ function Projects() {
                 React application
               </span>
               <div className=" pt-8 text-center">
-                <a href="" target="_blank">
+                <a
+                  href="https://blog-app-roan-three.vercel.app"
+                  target="_blank"
+                >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
