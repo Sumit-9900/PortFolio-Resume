@@ -3,7 +3,7 @@ import bookstore from "../Assets/bookstore.png";
 import blogapp from "../Assets/blogapp.png";
 import REST from "../Assets/REST.png";
 import Todo from "../Assets/Todo.png";
-import passwordgenerator from "../Assets/passwordgenerator.png";
+import QRcode from "../Assets/QRcode.png";
 import currencyconverter from "../Assets/currencyconverter.png";
 
 function Projects() {
@@ -167,7 +167,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${passwordgenerator})` }}
+            style={{ backgroundImage: `url(${QRcode})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
