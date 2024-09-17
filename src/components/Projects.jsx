@@ -25,8 +25,6 @@ function Projects() {
           <div
             style={{
               backgroundImage: `url(${bookstore})`,
-              objectFit: "contain",
-              backgroundPosition: "center",
             }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -62,7 +60,7 @@ function Projects() {
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                React application
+                Blog App
               </span>
               <div className=" pt-8 text-center">
                 <a
@@ -91,7 +89,7 @@ function Projects() {
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                React application
+                REST API
               </span>
               <div className=" pt-8 text-center">
                 <a
@@ -120,7 +118,7 @@ function Projects() {
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                React application
+                Todo
               </span>
               <div className=" pt-8 text-center">
                 <a href="https://todo-manage.vercel.app" target="_blank">
@@ -146,7 +144,7 @@ function Projects() {
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                React application
+                Currency Converter
               </span>
               <div className=" pt-8 text-center">
                 <a
@@ -175,7 +173,7 @@ function Projects() {
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                React application
+                QR Code Generator
               </span>
               <div className=" pt-8 text-center">
                 <a
@@ -187,7 +185,7 @@ function Projects() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/Ajoy-paul11/Password-Generator"
+                  href="https://github.com/Ajoy-paul11/QR-code-generator"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
