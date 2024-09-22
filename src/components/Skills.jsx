@@ -8,6 +8,7 @@ import ExpressIcon from "../Assets/express.png";
 import NodeIcon from "../Assets/node.png";
 import MongoDBIcon from "../Assets/mongo.png";
 import GitHubIcon from "../Assets/github.png";
+import Appwrite from "../Assets/Appwrite.png";
 
 function Skills() {
   return (
@@ -62,6 +63,10 @@ function Skills() {
           <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
             <img src={GitHubIcon} alt="github-icon" className=" w-20 mx-auto" />
             <p className=" py-4 text-center">GitHub</p>
+          </div>
+          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
+            <img src={Appwrite} alt="express-icon" className=" w-20 mx-auto" />
+            <p className=" py-4 text-center">Appwrite </p>
           </div>
         </div>
       </div>

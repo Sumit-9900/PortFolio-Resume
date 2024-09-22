@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
+import resumePDF from "../Assets/AJOY_RESUME.pdf";
 
 function Navbar() {
   const [menubar, setMenubar] = useState(false);
@@ -10,7 +11,7 @@ function Navbar() {
 
   return (
     <div className=" fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
+      <div className=" md:pl-6">
         <p className=" text-4xl text-gray-300 italic">
           𝓐 <span className="text-blue-700">𝓟</span>
         </p>
@@ -133,8 +134,8 @@ function Navbar() {
           </li>
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#565f69] ml-[-100px] hover:ml-[10px] duration-500">
             <a
-              href="../Assets/AJOY_RESUME.pdf"
-              download={"Ajoy_Resume.pdf"}
+              href={resumePDF}
+              download="AJOY_RESUME.pdf"
               className=" flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
