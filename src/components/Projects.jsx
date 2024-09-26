@@ -4,7 +4,7 @@ import blogapp from "../Assets/blogapp.png";
 import REST from "../Assets/REST.png";
 import Todo from "../Assets/Todo.png";
 import QRcode from "../Assets/QRcode.png";
-import currencyconverter from "../Assets/currencyconverter.png";
+import pokemon from "../Assets/pokemon.png";
 
 function Projects() {
   return (
@@ -138,7 +138,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${currencyconverter})` }}
+            style={{ backgroundImage: `url(${pokemon})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -147,16 +147,13 @@ function Projects() {
                 Currency Converter
               </span>
               <div className=" pt-8 text-center">
-                <a
-                  href="https://currency-converter-moneyapp.vercel.app"
-                  target="_blank"
-                >
+                <a href="/" target="_blank">
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/Ajoy-paul11/Currency-Converter"
+                  href="https://github.com/Ajoy-paul11/Pokemon-Cards"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
@@ -177,7 +174,7 @@ function Projects() {
               </span>
               <div className=" pt-8 text-center">
                 <a
-                  href="https://random-password-generator-4ws.pages.dev"
+                  href="https://qr-code-generator-bhz.pages.dev"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
