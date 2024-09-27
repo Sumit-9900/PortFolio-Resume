@@ -144,10 +144,10 @@ function Projects() {
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                Currency Converter
+                Pokemon Avatar
               </span>
               <div className=" pt-8 text-center">
-                <a href="/" target="_blank">
+                <a href="https://pokemon-avatar.netlify.app/" target="_blank">
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
