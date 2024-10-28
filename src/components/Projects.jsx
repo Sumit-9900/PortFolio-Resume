@@ -2,9 +2,9 @@ import React from "react";
 import bookstore from "../Assets/bookstore.png";
 import blogapp from "../Assets/blogapp.png";
 import REST from "../Assets/REST.png";
+import reviewBook from "../Assets/review-book.png";
+import quizOnline from "../Assets/quiz-online.png";
 import Todo from "../Assets/Todo.png";
-import QRcode from "../Assets/QRcode.png";
-import pokemon from "../Assets/pokemon.png";
 
 function Projects() {
   return (
@@ -92,8 +92,34 @@ function Projects() {
                 REST API
               </span>
               <div className=" pt-8 text-center">
+                <a href="https://rest-api-cc13.onrender.com" target="_blank">
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
                 <a
-                  href="https://github.com/Ajoy-paul11/Query-site"
+                  href="https://github.com/Ajoy-paul11/REST-API"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${reviewBook})` }}
+            className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effect */}
+            <div className=" opacity-0 group-hover:opacity-100">
+              <span className=" text-2xl text-white font-bold tracking-wider">
+                Books Review
+              </span>
+              <div className=" pt-8 text-center">
+                <a
+                  href="https://bookreview-frontend.onrender.com"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
@@ -101,7 +127,33 @@ function Projects() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/Ajoy-paul11/REST-API"
+                  href="https://github.com/Ajoy-paul11/BookReview"
+                  target="_blank"
+                >
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${quizOnline})` }}
+            className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effect */}
+            <div className=" opacity-0 group-hover:opacity-100">
+              <span className=" text-2xl text-white font-bold tracking-wider">
+                Online Quiz Test
+              </span>
+              <div className=" pt-8 text-center">
+                <a href="https://quiz-coding-test.netlify.app" target="_blank">
+                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/Ajoy-paul11/Online-Quiz"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
@@ -128,61 +180,6 @@ function Projects() {
                 </a>
                 <a
                   href="https://github.com/Ajoy-paul11/TodoUsingContextAPI"
-                  target="_blank"
-                >
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${pokemon})` }}
-            className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effect */}
-            <div className=" opacity-0 group-hover:opacity-100">
-              <span className=" text-2xl text-white font-bold tracking-wider">
-                Pokemon Avatar
-              </span>
-              <div className=" pt-8 text-center">
-                <a href="https://pokemon-avatar.netlify.app/" target="_blank">
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/Ajoy-paul11/Pokemon-Cards"
-                  target="_blank"
-                >
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${QRcode})` }}
-            className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effect */}
-            <div className=" opacity-0 group-hover:opacity-100">
-              <span className=" text-2xl text-white font-bold tracking-wider">
-                QR Code Generator
-              </span>
-              <div className=" pt-8 text-center">
-                <a
-                  href="https://qr-code-generator-bhz.pages.dev"
-                  target="_blank"
-                >
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/Ajoy-paul11/QR-code-generator"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
