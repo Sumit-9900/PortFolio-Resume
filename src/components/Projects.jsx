@@ -2,8 +2,8 @@ import React from "react";
 import bookstore from "../Assets/bookstore.png";
 import blogapp from "../Assets/blogapp.png";
 import REST from "../Assets/REST.png";
-import reviewBook from "../Assets/review-book.png";
-import quizOnline from "../Assets/quiz-online.png";
+import reviewBook from "../Assets/reviewBook.png";
+import quizOnline from "../Assets/quizOnline.png";
 import Todo from "../Assets/Todo.png";
 
 function Projects() {
