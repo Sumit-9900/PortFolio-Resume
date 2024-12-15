@@ -4,7 +4,7 @@ import blogapp from "../Assets/blogapp.png";
 import REST from "../Assets/REST.png";
 import reviewBook from "../Assets/reviewBook.png";
 import quizOnline from "../Assets/quizOnline.png";
-import Todo from "../Assets/Todo.png";
+import tmdb from "../Assets/tmdb.png";
 
 function Projects() {
   return (
@@ -164,7 +164,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Todo})` }}
+            style={{ backgroundImage: `url(${tmdb})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
