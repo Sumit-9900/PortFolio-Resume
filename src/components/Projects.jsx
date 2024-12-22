@@ -1,10 +1,10 @@
 import React from "react";
-import bookstore from "../Assets/bookstore.png";
-import blogapp from "../Assets/blogapp.png";
-import REST from "../Assets/REST.png";
-import reviewBook from "../Assets/reviewBook.png";
-import quizOnline from "../Assets/quizOnline.png";
-import tmdb from "../Assets/tmdb.png";
+import MovieApp from "../Assets/MovieApp.jpeg";
+import BlogApp from "../Assets/BlogApp.jpeg";
+import RentCar from "../Assets/RentCar.jpeg";
+import FoodApp from "../Assets/FoodApp.jpeg";
+import NewsApp from "../Assets/NewsApp.jpeg";
+import Covid19Tracker from "../Assets/Covid19Tracker.jpeg";
 
 function Projects() {
   return (
@@ -24,26 +24,18 @@ function Projects() {
           {/* Card Item */}
           <div
             style={{
-              backgroundImage: `url(${bookstore})`,
+              backgroundImage: `url(${MovieApp})`,
             }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-xl text-white font-bold tracking-wider">
-                BookStore Application
+                Movie App
               </span>
               <div className=" pt-8 text-center">
                 <a
-                  href="https://book-store-project-jjg2.onrender.com"
-                  target="_blank"
-                >
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/Ajoy-paul11/Book-Store-Project"
+                  href="https://github.com/Sumit-9900/Movie-Zone"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
@@ -54,7 +46,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${blogapp})` }}
+            style={{ backgroundImage: `url(${BlogApp})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -64,15 +56,7 @@ function Projects() {
               </span>
               <div className=" pt-8 text-center">
                 <a
-                  href="https://blog-app-roan-three.vercel.app"
-                  target="_blank"
-                >
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/Ajoy-paul11/Blog-App"
+                  href="https://github.com/Sumit-9900/Blog-App"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
@@ -83,22 +67,17 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${REST})` }}
+            style={{ backgroundImage: `url(${RentCar})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                REST API
+                Car Rent App
               </span>
               <div className=" pt-8 text-center">
-                <a href="https://rest-api-cc13.onrender.com" target="_blank">
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
                 <a
-                  href="https://github.com/Ajoy-paul11/REST-API"
+                  href="https://github.com/Sumit-9900/Rent-Car-App"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
@@ -109,25 +88,17 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${reviewBook})` }}
+            style={{ backgroundImage: `url(${FoodApp})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                Books Review
+                Food App
               </span>
               <div className=" pt-8 text-center">
                 <a
-                  href="https://bookreview-frontend.onrender.com"
-                  target="_blank"
-                >
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/Ajoy-paul11/BookReview"
+                  href="https://github.com/Sumit-9900/food-app"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
@@ -138,22 +109,17 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${quizOnline})` }}
+            style={{ backgroundImage: `url(${NewsApp})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                Online Quiz Test
+                News App
               </span>
               <div className=" pt-8 text-center">
-                <a href="https://quiz-coding-test.netlify.app" target="_blank">
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
                 <a
-                  href="https://github.com/Ajoy-paul11/Online-Quiz"
+                  href="https://github.com/Sumit-9900/news_app"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">
@@ -164,25 +130,17 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${tmdb})` }}
+            style={{ backgroundImage: `url(${Covid19Tracker})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className=" text-2xl text-white font-bold tracking-wider">
-                Todo
+                Covid-19 Tracker
               </span>
               <div className=" pt-8 text-center">
                 <a
-                  href="https://tmdb-movie-backend.onrender.com"
-                  target="_blank"
-                >
-                  <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/Ajoy-paul11/TMDB-Movie-Backend"
+                  href="https://github.com/Sumit-9900/covid_tracker"
                   target="_blank"
                 >
                   <button className=" text-center rounded-lg bg-white px-4 py-2 m-2 text-gray-700 text-lg font-bold">

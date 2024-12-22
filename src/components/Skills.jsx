@@ -1,14 +1,10 @@
 import React from "react";
-import HTML from "../Assets/html.png";
-import CSS from "../Assets/css.png";
-import JS from "../Assets/javascript.png";
-import ReactIcon from "../Assets/react.png";
-import Tailwind from "../Assets/tailwind.png";
-import ExpressIcon from "../Assets/express.png";
-import NodeIcon from "../Assets/node.png";
-import MongoDBIcon from "../Assets/mongo.png";
+import Bloc from "../Assets/Bloc.png";
+import Dart from "../Assets/Dart.png";
+import firebase from "../Assets/firebase.png";
+import flutter from "../Assets/flutter.png";
+import Hive from "../Assets/Hive.png";
 import GitHubIcon from "../Assets/github.png";
-import Appwrite from "../Assets/Appwrite.png";
 
 function Skills() {
   return (
@@ -24,49 +20,27 @@ function Skills() {
           </p>
         </div>
         <div className=" w-full grid grid-cols-2 sm:grid-cols-4 text-clip gap-4 py-8">
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={HTML} alt="html-icon" className=" w-20 mx-auto" />
-            <p className=" py-4 text-center">HTML</p>
+          <div className="  shadow-md mix-blend-lighten hover:shadow-[#040c16] hover:scale-110 duration-500">
+            <img src={flutter} alt="html-icon" className="  w-20 mx-auto" />
           </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={CSS} alt="css-icon" className=" w-20 mx-auto" />
-            <p className=" py-4 text-center">CSS</p>
+          <div className=" shadow-md mix-blend-lighten hover:shadow-[#040c16] hover:scale-125 duration-500">
+            <img src={Dart} alt="css-icon" className=" w-20 mx-auto" />
+            <p className=" py-4 text-center">Dart</p>
           </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={JS} alt="js-icon" className=" w-20 mx-auto" />
-            <p className=" py-4 text-center">JavaScript</p>
+          <div className=" shadow-md mix-blend-lighten hover:shadow-[#040c16] hover:scale-125 duration-500">
+            <img src={firebase} alt="js-icon" className=" w-20 mx-auto" />
           </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={ReactIcon} alt="react-icon" className=" w-20 mx-auto" />
-            <p className=" py-4 text-center">React JS</p>
+          <div className=" shadow-md mix-blend-lighten hover:shadow-[#040c16] hover:scale-150 duration-500">
+            <img src={Hive} alt="react-icon" className=" w-20 mx-auto" />
+            <p className=" py-4 text-center">Hive</p>
           </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={Tailwind} alt="tailwind-icon" className=" w-20 mx-auto" />
-            <p className=" py-4 text-center">Tailwind</p>
+          <div className=" shadow-md mix-blend-lighten hover:shadow-[#040c16] hover:scale-125 duration-500">
+            <img src={Bloc} alt="tailwind-icon" className=" w-20 mx-auto" />
+            <p className=" py-4 text-center">Bloc</p>
           </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              src={ExpressIcon}
-              alt="express-icon"
-              className=" w-20 mx-auto"
-            />
-            <p className=" py-4 text-center">Express JS</p>
-          </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={NodeIcon} alt="node-icon" className=" w-20 mx-auto" />
-            <p className=" py-4 text-center">NodeJS</p>
-          </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={MongoDBIcon} alt="mongo-icon" className=" w-20 mx-auto" />
-            <p className=" py-4 text-center">Mongo DB</p>
-          </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
+          <div className=" shadow-md mix-blend-lighten hover:shadow-[#040c16] hover:scale-125 duration-500">
             <img src={GitHubIcon} alt="github-icon" className=" w-20 mx-auto" />
             <p className=" py-4 text-center">GitHub</p>
-          </div>
-          <div className=" shadow-md hover:shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={Appwrite} alt="express-icon" className=" w-20 mx-auto" />
-            <p className=" py-4 text-center">Appwrite </p>
           </div>
         </div>
       </div>

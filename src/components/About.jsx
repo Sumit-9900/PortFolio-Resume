@@ -13,14 +13,15 @@ function About() {
         </div>
         <div className=" max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 md:px-24">
           <div className=" sm:text-right text-4xl font-bold">
-            Hi, I'm Ajoy, nice to meet you. Please take a look around.
+            Hi, I'm Sumit, nice to meet you. Please take a look around.
           </div>
           <div>
-            As a Full-Stack Web Developer specializing in the MERN stack, My
-            technical skills are complemented by excellent problem-solving
-            abilities, effective communication. I am well-prepared and eager to
-            take on challenging projects or roles that require a dynamic and
-            skilled approach to web development.
+            As a Flutter Developer with expertise in Flutter/Dart and Clean
+            Architecture, I bring strong problem-solving skills and a
+            collaborative approach to building scalable mobile applications. I
+            am eager to contribute to challenging projects that demand
+            innovation, technical excellence, and a commitment to delivering
+            impactful user experiences.
           </div>
         </div>
       </div>
