@@ -3,17 +3,17 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import resumePDF from "../Assets/AJOY_RESUME.pdf";
+import resumePDF from "../Assets/SUMIT_RESUME.pdf";
 
 function Navbar() {
   const [menubar, setMenubar] = useState(false);
   const handleMenubar = () => setMenubar(!menubar);
 
   return (
-    <div className=" fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className=" fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-20">
       <div className=" md:pl-6">
         <p className=" text-4xl text-gray-300 italic">
-          𝓐 <span className="text-blue-700">𝓟</span>
+          S <span className="text-blue-700">P</span>
         </p>
       </div>
 
@@ -107,7 +107,7 @@ function Navbar() {
         <ul>
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-blue-500 ml-[-100px] hover:ml-[10px] duration-500">
             <a
-              href="https://www.linkedin.com/in/ajoypaul/"
+              href="https://www.linkedin.com/in/sumit-paul-640971218"
               target="_blank"
               className=" flex justify-between items-center w-full text-gray-300"
             >
@@ -116,7 +116,7 @@ function Navbar() {
           </li>
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#333333] ml-[-100px] hover:ml-[10px] duration-500">
             <a
-              href="https://github.com/ajoy-paul11"
+              href=" https://github.com/Sumit-9900"
               target="_blank"
               className=" flex justify-between items-center w-full text-gray-300"
             >
@@ -125,7 +125,7 @@ function Navbar() {
           </li>
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#6fc2b0] ml-[-100px] hover:ml-[10px] duration-500">
             <a
-              href="mailto:ajoypaul8875@gmail.com?subject=Hello%20from%20your%20portfolio&body=Hi%20Ajoy,%0A%0AI%20saw%20your%20portfolio%20and%20wanted%20to%20reach%20out..."
+              href="mailto:paulsumit9900@gmail.com?subject=Hello%20from%20your%20portfolio&body=Hi%20Ajoy,%0A%0AI%20saw%20your%20portfolio%20and%20wanted%20to%20reach%20out..."
               target="_blank"
               className=" flex justify-between items-center w-full text-gray-300"
             >
@@ -135,7 +135,7 @@ function Navbar() {
           <li className=" w-[160px] h-[60px] flex justify-between items-center bg-[#565f69] ml-[-100px] hover:ml-[10px] duration-500">
             <a
               href={resumePDF}
-              download="AJOY_RESUME.pdf"
+              download="SUMIT_RESUME.pdf"
               className=" flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
